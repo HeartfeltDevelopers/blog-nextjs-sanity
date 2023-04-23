@@ -7,9 +7,9 @@ import MoreStories from 'components/MoreStories'
 import * as demo from 'lib/demo.data'
 import type { Post, Settings } from 'lib/sanity.queries'
 
+import BannerSection from './site/BannerSection'
 import Footer from './site/Footer'
 import InfoSec from './site/InfoSec'
-import BannerSection from './site/BannerSection'
 
 export interface IndexPageProps {
   preview?: boolean
@@ -49,7 +49,6 @@ export default function IndexPage(props: IndexPageProps) {
 
         <BannerSection />
         <Footer />
-        
       </Layout>
     </>
   )

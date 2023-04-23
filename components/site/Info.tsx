@@ -10,9 +10,6 @@ function Info() {
             Store
         </div>
         <div className="m-1">
-            Store
-        </div>
-        <div className="m-1">
             Daily Devotions
         </div>
         <div className="m-1">
