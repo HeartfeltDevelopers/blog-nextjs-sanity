@@ -4,6 +4,8 @@ const config = {
     remotePatterns: [
       { hostname: 'cdn.sanity.io' },
       { hostname: 'source.unsplash.com' },
+      { hostname: 'cf1.gatewaypeople.com' },
+      { hostname: 'heartfeltonline.org' },
     ],
   },
   typescript: {

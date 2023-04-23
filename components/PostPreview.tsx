@@ -22,16 +22,16 @@ export default function PostPreview({
           priority={false}
         />
       </div>
-      <h3 className="mb-3 text-3xl leading-snug">
+      <h3 className="mb-3 text-lg leading-snug font-semibold">
         <Link href={`/posts/${slug}`} className="hover:underline">
           {title}
         </Link>
       </h3>
-      <div className="mb-4 text-lg">
+      {/* <div className="mb-4 text-lg">
         <Date dateString={date} />
-      </div>
-      {excerpt && <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>}
-      {author && <Avatar name={author.name} picture={author.picture} />}
+      </div> */}
+      {/* {excerpt && <p className="mb-4 text-lg leading-relaxed line-clamp-2">{excerpt}</p>} */}
+      {/* {author && <Avatar name={author.name} picture={author.picture} />} */}
     </div>
   )
 }

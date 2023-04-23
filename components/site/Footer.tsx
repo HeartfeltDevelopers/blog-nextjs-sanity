@@ -1,0 +1,30 @@
+import About from "./About"
+import Conferences from "./Conferences"
+import Info from "./Info"
+import Ministries from "./Ministries"
+
+
+function Footer() {
+  return (
+    <>
+    <div className="items-center justify-between p-10">
+      <div className="flex mx-auto w-4/6">
+        <div className='flex-1'>
+            <About />
+        </div>
+        <div className='flex-1'>
+            <Ministries />
+        </div>
+        <div className='flex-1'>
+            <Conferences />
+        </div>
+        <div className='flex-1'>
+           <Info />
+        </div>
+      </div>
+    </div>
+    </>
+  )
+}
+
+export default Footer

@@ -4,9 +4,11 @@ import Layout from 'components/BlogLayout'
 import HeroPost from 'components/HeroPost'
 import IndexPageHead from 'components/IndexPageHead'
 import MoreStories from 'components/MoreStories'
-import IntroTemplate from 'intro-template'
 import * as demo from 'lib/demo.data'
 import type { Post, Settings } from 'lib/sanity.queries'
+
+import Footer from './site/Footer'
+import InfoSec from './site/InfoSec'
 
 export interface IndexPageProps {
   preview?: boolean
@@ -23,10 +25,12 @@ export default function IndexPage(props: IndexPageProps) {
   return (
     <>
       <IndexPageHead settings={settings} />
-
+      <Container>
+        <BlogHeader title={title} description={description} level={1} />
+      </Container>
       <Layout preview={preview} loading={loading}>
+      <div className="justify-between text-white bg-gradient-to-b from-gray-600 to-gray-900 pt-10">
         <Container>
-          <BlogHeader title={title} description={description} level={1} />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -37,9 +41,12 @@ export default function IndexPage(props: IndexPageProps) {
               excerpt={heroPost.excerpt}
             />
           )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
+          <InfoSec />
         </Container>
-        <IntroTemplate />
+        </div>
+        <Footer />
+        
       </Layout>
     </>
   )
