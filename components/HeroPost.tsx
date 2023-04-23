@@ -20,16 +20,17 @@ export default function HeroPost(
         <CoverImage slug={slug} title={title} image={coverImage} priority />
         </div>
         <div>
+          <div className='text-2xl font-thin pb-5'>Latest Sermon</div>
         <h3 className="text-4xl leading-tight lg:text-6xl">
-            <Link href={`/posts/${slug}`} className="hover:underline">
+            <Link href={`/posts/${slug}`} className="line-clamp-2">
               {title || 'Untitled'}
             </Link>
           </h3>
-          <div className="mb-4 font-thin text-xs md:mb-0">
+          <div className="mb-4 font-thin text-xs md:mb-0 pt-4 pb-2">
             <Date dateString={date} />
           </div>
           <div className='mt-5'>
-            {excerpt && <p className="mb-4 text-lg font-thin leading-relaxed line-clamp-3">{excerpt}</p>}
+            {excerpt && <p className="mb-4 text-lg font-thin leading-relaxed line-clamp-2">{excerpt}</p>}
           </div>
         </div>
       </div>
