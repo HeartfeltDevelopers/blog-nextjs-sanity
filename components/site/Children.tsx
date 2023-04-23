@@ -8,9 +8,9 @@ function Children() {
         width={450}
         height={80} />
         <div>
-        <p className="text-xl font-semibold mt-5 mb-5">Let{`'`}s Connect! </p>
+        <p className="text-xl font-semibold mt-5 mb-5">Spiritual Growth </p>
 
-<p>Are you looking for meaningful ways to connect with others in the Gateway family? There are</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
 
 
         </div>
