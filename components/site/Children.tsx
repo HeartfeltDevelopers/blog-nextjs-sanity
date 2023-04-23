@@ -3,7 +3,7 @@ import Image from "next/image"
 function Children() {
   return (
     <div>
-        <Image src="/b2.jpeg" 
+        <Image src="/s3.jpeg" 
         alt="Picture of the author"
         width={450}
         height={80} />
