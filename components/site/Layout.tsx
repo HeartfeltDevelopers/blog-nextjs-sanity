@@ -12,7 +12,7 @@ function Layout({...props}) {
   return (
     <>
     <div>
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto">
             <Menu />
             {props.children}
             <Footer />
