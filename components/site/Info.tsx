@@ -2,7 +2,7 @@
 function Info() {
   return (
     <>
-    <div className="mb-3 text-2xl font-semibold">
+    <div className="mb-3 text-xl font-semibold">
         Resources 
     </div>
     <div className="m-0 text-sm opacity-50">
