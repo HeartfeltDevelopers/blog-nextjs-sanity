@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function Children() {
   return (
-    <div className="">
+    <div>
         <Image src="/a1.jpeg" 
         alt="Picture of the author"
         width={450}

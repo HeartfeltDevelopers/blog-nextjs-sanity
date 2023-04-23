@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function BannerSection() {
   return (<>
-    <div className='flex w-full'>
+    <div className='md:flex w-full'>
         <div className="flex m-5"> <Image src="/dogs.jpeg" 
         alt="Picture of the author"
         width={700}
@@ -16,7 +16,7 @@ function BannerSection() {
         </div>
     </div>
 
-    <div className='flex w-full'>
+    <div className='md:flex w-full'>
     <div className="flex m-5">
         <Image src="/mo.jpeg" 
         alt="Picture of the author"

@@ -1,7 +1,7 @@
 import Image from "next/image"
 function Welcome() {
   return (
-    <div className="h-20">
+    <div>
         <Image src="/pastorC.jpeg" 
         alt="Picture of the author"
         width={450}

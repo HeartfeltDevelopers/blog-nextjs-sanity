@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
     <div className="items-center justify-between p-10">
-      <div className="flex mx-auto w-4/6">
+      <div className="md:flex mx-auto md:w-4/6">
         <div className='flex-1'>
             <About />
         </div>

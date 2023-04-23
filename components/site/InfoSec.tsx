@@ -11,14 +11,14 @@ function InfoSec() {
         <div className="mb-10">
             <hr className="border-1 border-gray-600"/>
         </div>
-        <div className="flex font-thin text-sm">
-            <div className="p-2">
+        <div className="md:flex font-thin text-sm">
+            <div className="flex p-2">
                 <Welcome />
             </div>
-            <div className="p-2">
+            <div className="flex p-2">
                 <Children />
             </div>
-            <div className="p-2">
+            <div className="flex p-2">
                 <Greeting />
             </div>
         </div>

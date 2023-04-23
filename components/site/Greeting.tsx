@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function Greeting() {
   return (
-    <div className="">
+    <div>
         <Image src="/d1.jpeg" 
         alt="Picture of the author"
         width={450}
