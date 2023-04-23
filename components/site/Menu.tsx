@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Menu() {
   return (
-    <div>
+    <div className='max-w-6xl mx-auto'>
          <div className='flex justify-between pt-5'>
             <Link href={'/'}>
         <div className='pt-5'>
