@@ -25,11 +25,11 @@ export default function HeroPost(
               {title || 'Untitled'}
             </Link>
           </h3>
-          <div className="mb-4 text-sm md:mb-0">
+          <div className="mb-4 font-thin text-xs md:mb-0">
             <Date dateString={date} />
           </div>
           <div className='mt-5'>
-            {excerpt && <p className="mb-4 text-lg leading-relaxed line-clamp-3">{excerpt}</p>}
+            {excerpt && <p className="mb-4 text-lg font-thin leading-relaxed line-clamp-3">{excerpt}</p>}
           </div>
         </div>
       </div>
