@@ -9,6 +9,7 @@ import type { Post, Settings } from 'lib/sanity.queries'
 
 import Footer from './site/Footer'
 import InfoSec from './site/InfoSec'
+import BannerSection from './site/BannerSection'
 
 export interface IndexPageProps {
   preview?: boolean
@@ -45,6 +46,8 @@ export default function IndexPage(props: IndexPageProps) {
           <InfoSec />
         </Container>
         </div>
+
+        <BannerSection />
         <Footer />
         
       </Layout>
