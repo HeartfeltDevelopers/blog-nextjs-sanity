@@ -32,6 +32,7 @@ export default function IndexPage(props: IndexPageProps) {
       <Layout preview={preview} loading={loading}>
       <div className="justify-between text-white bg-gradient-to-b from-gray-600 to-gray-900 pt-10">
         <Container>
+          <div className='md:max-w-6xl mx-auto'>
           {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -44,6 +45,7 @@ export default function IndexPage(props: IndexPageProps) {
           )}
           {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
           <InfoSec />
+          </div>
         </Container>
         </div>
 

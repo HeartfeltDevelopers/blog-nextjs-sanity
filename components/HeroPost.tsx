@@ -13,7 +13,7 @@ export default function HeroPost(
   const { title, coverImage, date, excerpt, author, slug } = props
   return (
     <section>
-      <div className="text-4xl pt-80"></div>
+      <div className="text-4xl pt-10"></div>
       <div className="mb-20 md:mb-10 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8">
 
         <div>

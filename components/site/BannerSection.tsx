@@ -29,8 +29,6 @@ function BannerSection() {
         width={700}
         height={100} />
     </div>
-
-    
 </div>
 </>
   )
