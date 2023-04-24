@@ -6,10 +6,10 @@ function Menu() {
     <div className='max-w-6xl mx-auto'>
          <div className='flex justify-between pt-5'>
             <Link href={'/'}>
-        <div className='pt-5'>
-            <p className='text-red-600 font-semibold text-xl'>HEARTFELT</p>  
-            <p className='text-sm font-thin'>International Ministries</p>
-            </div>
+              <div className='p-0'>
+                <p className='text-red-600 font-semibold text-xl'>HEARTFELT</p>  
+                <p className='text-sm font-thin'>International Ministries</p>
+              </div>
             </Link>
         <div className=''>
             <div className="text-right p-0"><Web3Button /></div>
