@@ -15,7 +15,7 @@ function Blog_Layout({...props}) {
                 <Link href={"/"} >Heartfelt</Link>
             </div>
         </div>
-        <div className='max-w-6xl mx-auto pt-40'>
+        <div className='max-w-6xl mx-auto pt-40 p-5'>
             {props.children}
         </div>
             <Footer />
