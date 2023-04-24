@@ -48,7 +48,6 @@ export default function IndexPage(props: IndexPageProps) {
           </div>
         </Container>
         </div>
-
         <BannerSection />
         <Footer />
       </Layout>
