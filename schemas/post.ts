@@ -51,6 +51,19 @@ export default defineType({
       type: 'text',
     }),
     defineField({
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Sermon', value: 'sermon' },
+          { title: 'Devotional', value: 'devotional' }
+        ],
+        layout: 'radio'
+      },
+
+    }),
+    defineField({
       name: 'coverImage',
       title: 'Cover Image',
       type: 'image',

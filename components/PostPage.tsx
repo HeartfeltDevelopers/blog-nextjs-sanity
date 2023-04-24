@@ -6,10 +6,11 @@ import PostHeader from 'components/PostHeader'
 import PostPageHead from 'components/PostPageHead'
 import PostTitle from 'components/PostTitle'
 import SectionSeparator from 'components/SectionSeparator'
-import Layout from 'components/site/Layout'
 import * as demo from 'lib/demo.data'
 import type { Post, Settings } from 'lib/sanity.queries'
 import { notFound } from 'next/navigation'
+
+import Blog_Layout from './site/Blog_Layout'
 
 export interface PostPageProps {
   preview?: boolean
@@ -33,9 +34,9 @@ export default function PostPage(props: PostPageProps) {
 
   return (
     <>
-      <PostPageHead settings={settings} post={post} />
+      {/* <PostPageHead settings={settings} post={post} /> */}
       
-      <Layout preview={preview} loading={loading}>
+      <Blog_Layout preview={preview} loading={loading}>
         <div className=" pt-36">
           {preview && !post ? (
             <PostTitle>Loading…</PostTitle>
@@ -55,7 +56,7 @@ export default function PostPage(props: PostPageProps) {
             </>
           )}
         </div>
-      </Layout>
+      </Blog_Layout>
     </>
   )
 }

@@ -5,6 +5,7 @@ const postFields = groq`
   title,
   date,
   excerpt,
+  category,
   coverImage,
   "slug": slug.current,
   "author": author->{name, picture},
@@ -50,6 +51,7 @@ export interface Post {
   coverImage?: any
   date?: string
   excerpt?: string
+  category?: string
   author?: Author
   slug?: string
   content?: any
