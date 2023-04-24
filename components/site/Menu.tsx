@@ -6,7 +6,7 @@ function Menu() {
     <div className='max-w-6xl mx-auto'>
          <div className='flex justify-between pt-5'>
             <Link href={'/'}>
-              <div className='p-0'>
+              <div className='p-0 md:pt-5'>
                 <p className='text-red-600 font-semibold text-xl'>HEARTFELT</p>  
                 <p className='text-sm font-thin'>International Ministries</p>
               </div>
