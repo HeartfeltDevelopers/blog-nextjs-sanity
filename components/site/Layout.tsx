@@ -12,11 +12,11 @@ function Layout({...props}) {
   return (
     <>
     <div>
-        <div>
+        <div className='max-w-6xl mx-auto'>
             <Menu />
             {props.children}
-            <Footer />
         </div>
+            <Footer />
     </div>
     </>
   )

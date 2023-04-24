@@ -12,13 +12,13 @@ function InfoSec() {
             <hr className="border-1 border-gray-600"/>
         </div>
         <div className="md:flex font-thin text-sm">
-            <div className="flex p-2">
+            <div className="flex pr-3">
                 <Welcome />
             </div>
-            <div className="flex p-2">
+            <div className="flex pr-3">
                 <Children />
             </div>
-            <div className="flex p-2">
+            <div className="flex">
                 <Greeting />
             </div>
         </div>

@@ -31,7 +31,7 @@ export default function PostPreview({
         <Date dateString={date} />
       </div> */}
       {/* {excerpt && <p className="mb-4 text-lg leading-relaxed line-clamp-2">{excerpt}</p>} */}
-      {/* {author && <Avatar name={author.name} picture={author.picture} />} */}
+      {/* {author && <Avatar name={author.name} picture={author.picture} />}  */}
     </div>
   )
 }

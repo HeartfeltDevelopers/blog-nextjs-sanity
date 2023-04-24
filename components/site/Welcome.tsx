@@ -2,10 +2,10 @@ import Image from "next/image"
 function Welcome() {
   return (
     <div>
-        <Image src="/pastorC.jpeg" 
+        <Image src="/b1.jpeg" 
         alt="Picture of the author"
         width={450}
-        height={80} />
+        height={80} className="rounded-sm" />
         <div>
 <p className="text-xl font-semibold mt-5 mb-5">Sunday Service </p>
 
