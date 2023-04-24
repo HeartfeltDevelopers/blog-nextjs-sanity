@@ -13,7 +13,7 @@ function Menu() {
             </Link>
         <div className=''>
             <div className="text-xs font-thin text-right p-2"><Web3Button /></div>
-            <div className=' invisible md:flex justify-between text-lg md:visible'>
+            <div className='hidden md:flex justify-between text-lg md:visible'>
                 <div className='p-2'>About</div>
                 <div className='p-2'>Locations</div>
                 <div className='p-2'>Ministries</div>
