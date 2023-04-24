@@ -12,7 +12,7 @@ function Menu() {
             </div>
             </Link>
         <div className=''>
-            <div className="text-xs font-thin text-right p-2"><Web3Button /></div>
+            <div className="text-right p-0"><Web3Button /></div>
             <div className='hidden md:flex justify-between text-lg md:visible'>
                 <div className='p-2'>About</div>
                 <div className='p-2'>Locations</div>
