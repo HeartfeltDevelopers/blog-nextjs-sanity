@@ -26,9 +26,11 @@ export default function IndexPage(props: IndexPageProps) {
   return (
     <>
       <IndexPageHead settings={settings} />
-      <Container>
-        <BlogHeader title={title} description={description} level={1} />
-      </Container>
+      <div className='bg-white fixed w-full'>
+        <Container>
+          <BlogHeader title={title} description={description} level={1} />
+        </Container>
+      </div>
       <Layout preview={preview} loading={loading}>
       <div className="justify-between text-white bg-gradient-to-b from-gray-800 to-black pt-10">
         <Container>

@@ -1,7 +1,7 @@
 import { PreviewSuspense } from '@sanity/preview-kit'
 import IndexPage from 'components/IndexPage'
 import MoreStories from 'components/MoreStories'
-import Layout from 'components/site/Layout'
+import Blog_Layout from 'components/site/Blog_Layout'
 import { getAllPosts, getSettings } from 'lib/sanity.client'
 import { Post, Settings } from 'lib/sanity.queries'
 import { GetStaticProps } from 'next'
@@ -41,9 +41,9 @@ export default function Page(props: PageProps) {
 
   return (
     <>
-    <Layout>
+    <Blog_Layout>
       <MoreStories posts={posts}  />
-    </Layout>
+    </Blog_Layout>
     </>
     )
 }

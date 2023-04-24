@@ -18,7 +18,7 @@ function Menu() {
                 <div className='p-2'>Locations</div>
                 <div className='p-2'>Ministries</div>
                 <div className='p-2'>Events</div>
-                <div className='p-2'><Link href={'/resources'}>Resources</Link></div>
+                <div className='p-2'><Link href={'/resources'}>Blog</Link></div>
             </div>
         </div>
     </div>
