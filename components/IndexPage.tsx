@@ -30,7 +30,7 @@ export default function IndexPage(props: IndexPageProps) {
         <BlogHeader title={title} description={description} level={1} />
       </Container>
       <Layout preview={preview} loading={loading}>
-      <div className="justify-between text-white bg-gradient-to-b from-gray-600 to-gray-900 pt-10">
+      <div className="justify-between text-white bg-gradient-to-b from-gray-800 to-black pt-10">
         <Container>
           <div className='md:max-w-6xl mx-auto'>
           {heroPost && (
