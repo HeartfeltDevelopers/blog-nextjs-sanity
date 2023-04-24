@@ -15,7 +15,6 @@ function Menu() {
             <div className="text-xs font-thin text-right p-2"><Web3Button /></div>
             <div className='flex justify-between text-lg'>
                 <div className='p-2'>About</div>
-                <div className='p-2 text-red-600'>LIVE</div>
                 <div className='p-2'>Locations</div>
                 <div className='p-2'>Ministries</div>
                 <div className='p-2'>Events</div>

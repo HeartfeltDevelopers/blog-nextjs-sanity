@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { SocialIcon } from 'react-social-icons';
+
 import About from "./About"
 import Conferences from "./Conferences"
 import Info from "./Info"
@@ -29,6 +31,9 @@ function Footer() {
           <div className="p-3">
               Copyright © 2023 Heartfelt International Ministries
             </div>
+            {/* <div className="h-5">
+              <SocialIcon url="https://twitter.com/" className="w-2"  />
+            </div> */}
         </div>
       </div>
     </div>
