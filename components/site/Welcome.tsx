@@ -7,7 +7,7 @@ function Welcome() {
         width={450}
         height={80} className="rounded-sm" />
         <div>
-<p className="text-xl font-semibold mt-5 mb-5">Sunday Service </p>
+<p className="text-xl font-semibold mt-5 mb-5">Brand New Life </p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
 
