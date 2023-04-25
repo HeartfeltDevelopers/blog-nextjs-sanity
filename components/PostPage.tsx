@@ -37,7 +37,7 @@ export default function PostPage(props: PostPageProps) {
       {/* <PostPageHead settings={settings} post={post} /> */}
       
       <Blog_Layout preview={preview} loading={loading}>
-        <div className=" pt-36">
+        <div className=" md:pt-36">
           {preview && !post ? (
             <PostTitle>Loading…</PostTitle>
           ) : (
