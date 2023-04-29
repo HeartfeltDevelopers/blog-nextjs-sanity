@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function About() {
@@ -17,7 +18,7 @@ function About() {
             Apostle T & Pastor C
         </div>
         <div className="m-1">
-            Leadership Staff
+            <Link href={`/leadershipStaff`}>Leadership Staff</Link>
         </div>
         <div className="m-1">
             Contact
