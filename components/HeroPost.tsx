@@ -13,11 +13,18 @@ export default function HeroPost(
   const { title, coverImage, date, excerpt, author, slug } = props
   return (
     <section>
-      <div className="text-4xl pt-10"></div>
+      <div className="text-6xl pt-32 pb-20">
+        <p>NaJesu Zvinoita, Tinoenda Kure. </p>
+        <br />
+        <button className="rounded-full p-3 text-white text-3xl bg-sky-500">Get Connected</button>
+      </div>
       <div className="mt-10 mb-20 md:mb-10 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 md:mt-20">
-
+       
         <div>
-        <CoverImage slug={slug} title={title} image={coverImage} priority />
+          <div>
+            <CoverImage slug={slug} title={title} image={coverImage} priority />
+          </div>
+        
         </div>
         <div>
           <div className='text-2xl font-thin pb-5'>Latest Sermon</div>
