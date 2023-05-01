@@ -56,8 +56,19 @@ export default defineType({
       type: 'string',
       options: {
         list: [
-          { title: 'Sermon', value: 'sermon' },
-          { title: 'Devotional', value: 'devotional' }
+          { title: 'Children Ministries', value: 'children' },
+          { title: 'Couples', value: 'couples' },
+          { title: 'Catch the Fire', value: 'ctf' },
+          { title: 'Devotions', value: 'devotions' },
+          { title: 'Men', value: 'men' },
+          { title: 'Men on Fire', value: 'mof' },
+          { title: 'Women', value: 'women' },
+          { title: 'Women on Fire', value: 'wof' },
+          { title: 'Worship', value: 'worship' },
+          { title: 'Pioneers', value: 'pioneers' },
+          { title: 'Pioneers Conference', value: 'pioneersconference' },
+          { title: 'Heartlife Care', value: 'heartlife' },
+          { title: 'Heartfelt Institute', value: 'institute' },
         ],
         layout: 'radio'
       },

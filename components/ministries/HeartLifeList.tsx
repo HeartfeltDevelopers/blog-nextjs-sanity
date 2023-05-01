@@ -1,16 +1,16 @@
 import PostPreview from 'components/PostPreview'
 import type { Post } from 'lib/sanity.queries'
 
-import DevotionsPreview from './DevotionsPreview'
+import HeartLifePreview from './HeartLifePreview'
 
-export default function DevotionsList({ posts }: { posts: Post[] }) {
+export default function HeartLifeList({ posts }: { posts: Post[] }) {
   
 
   return (
     <section>
       <div className=" mb-32 grid grid-cols-1  md:grid-cols-5 md:gap-x-5">
-        {posts.filter(post => post.category === 'devotions').map((post) => (
-            <DevotionsPreview
+        {posts.filter(post => post.category === 'heartlife').map((post) => (
+            <HeartLifePreview
             key={post._id}
             title={post.title}
             coverImage={post.coverImage}
