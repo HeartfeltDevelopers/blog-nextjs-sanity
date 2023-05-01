@@ -13,10 +13,19 @@ export default function HeroPost(
   const { title, coverImage, date, excerpt, author, slug } = props
   return (
     <section>
-      <div className="text-6xl pt-32 pb-20">
-        <p>NaJesu Zvinoita, Tinoenda Kure. </p>
+      <div className="flex justify-between text-6xl pt-32 pb-20">
+        <div>
+        <p className=' capitalize font-thin text-7xl'>Let your kingdom come  </p>
+        <p className='text-2xl font-semibold pt-10'>
+         This Sunday come experience His presence.
+        </p>
         <br />
-        <button className="rounded-full p-3 text-white text-3xl bg-sky-500">Get Connected</button>
+        <button className="rounded-full p-3 text-white text-3xl bg-sky-500">Online Connect </button>
+        </div>
+        <div>
+          &nbsp;
+        </div>
+        
       </div>
       <div className="mt-10 mb-20 md:mb-10 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 md:mt-20">
        

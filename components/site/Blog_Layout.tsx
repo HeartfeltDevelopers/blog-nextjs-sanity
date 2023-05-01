@@ -9,12 +9,12 @@ function Blog_Layout({...props}) {
     <>
     <div className="bg-gray-50">
         <div className="fixed w-full">
-            <div className="p-5 bg-gray-100 w-full">
+            <div className="p-5 bg-black w-full">
                <BlogMenu />
             </div>
             <div className="flex p-5 bg-white w-full">
               
-              <div className=" text-center w-full">ALL BLOGS |
+              <div className=" text-center  w-full">ALL BLOGS |
 LEADERSHIP |
 DEVOTIONALS |
 STORIES</div>

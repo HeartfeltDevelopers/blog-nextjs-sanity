@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 function Conferences() {
   return (
@@ -7,16 +8,16 @@ function Conferences() {
     </div>
     <div className="m-0 text-sm opacity-50">
         <div className="m-1">
-            Catch The Fire Conference
+           <Link href={"/ctf"}>Catch The Fire Conference</Link> 
         </div>
         <div className="m-1">
-            Women on Fire 
+        <Link href={"/wof"}>Women on Fire </Link>
         </div>
         <div className="m-1">
-            Men{`'`}s Conference
+        <Link href={"/mof"}> Men{`'`}s Conference</Link>
         </div>
         <div className="m-1">
-            Pioneers Conference
+        <Link href={"/pioneersconference"}>  Pioneers Conference</Link>
         </div>
     </div>
     </>

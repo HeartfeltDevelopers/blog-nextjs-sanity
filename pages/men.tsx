@@ -1,6 +1,6 @@
 import { PreviewSuspense } from '@sanity/preview-kit'
-import LeadershipList from 'components/about/LeadershipList'
 import IndexPage from 'components/IndexPage'
+import MenList from 'components/ministries/MenList'
 import MoreStories from 'components/MoreStories'
 import Blog_Layout from 'components/site/Blog_Layout'
 import { getAllPosts, getSettings } from 'lib/sanity.client'
@@ -43,7 +43,7 @@ export default function Page(props: PageProps) {
   return (
     <>
     <Blog_Layout>
-        <LeadershipList posts={posts}  />
+        <MenList posts={posts}  />
     </Blog_Layout>
     </>
     )

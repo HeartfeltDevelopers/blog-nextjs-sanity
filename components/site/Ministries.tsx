@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 function Ministries() {
   return (
@@ -7,19 +8,19 @@ function Ministries() {
     </div>
     <div className="m-0 text-sm opacity-50">
         <div className="m-1">
-            Children
+           <Link href={"/children"}>Children</Link>
         </div>
         <div className="m-1">
-            Couples
+            <Link href={"/couples"}>Couples</Link>
         </div>
         <div className="m-1">
-            Men
+            <Link href={"/men"}>Men</Link>
         </div>
         <div className="m-1">
-            Women
+            <Link href={"/women"}>Women</Link>
         </div>
         <div className="m-1">
-            Pioneers
+            <Link href={"/pioneers"}>Pioneers</Link>
         </div>
     </div>
     </>

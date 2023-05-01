@@ -11,13 +11,13 @@ function Info() {
         <Link href={'/resources'}>Blog</Link>
         </div>
         <div className="m-1">
-            Daily Devotions
+        <Link href={'/devotions'}> Daily Devotions</Link>
         </div>
         <div className="m-1">
-            Heartfelt Worship
+        <Link href={'/worship'}> Heartfelt Worship</Link>
         </div>
         <div className="m-1">
-            Heartfelt Institute Of Ministry
+        <Link href={'/institute'}> Heartfelt Institute Of Ministry</Link>
         </div>
     </div>
     </>
