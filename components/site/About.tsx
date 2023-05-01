@@ -21,7 +21,7 @@ function About() {
             <Link href={`/leadershipStaff`}>Leadership Staff</Link>
         </div>
         <div className="m-1">
-            Contact
+        <Link href={`/locations`}> Locations</Link>
         </div>
     </div>
     </>

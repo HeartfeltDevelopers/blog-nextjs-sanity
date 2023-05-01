@@ -60,6 +60,7 @@ export default defineType({
           { title: 'Couples', value: 'couples' },
           { title: 'Catch the Fire', value: 'ctf' },
           { title: 'Devotions', value: 'devotions' },
+          { title: 'Events', value: 'events' },
           { title: 'Men', value: 'men' },
           { title: 'Men on Fire', value: 'mof' },
           { title: 'Women', value: 'women' },
@@ -69,6 +70,7 @@ export default defineType({
           { title: 'Pioneers Conference', value: 'pioneersconference' },
           { title: 'Heartlife Care', value: 'heartlife' },
           { title: 'Heartfelt Institute', value: 'institute' },
+          { title: 'Heartfelt Zone', value: 'locations' },
         ],
         layout: 'radio'
       },
