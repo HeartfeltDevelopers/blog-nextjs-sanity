@@ -15,9 +15,8 @@ function Menu() {
             <div className="text-right p-0"><Web3Button /></div>
             <div className='hidden md:flex justify-between text-lg md:visible'>
                 <div className='p-2'>About</div>
-                <div className='p-2'>Locations</div>
-                <div className='p-2'>Ministries</div>
-                <div className='p-2'>Events</div>
+                <div className='p-2'><Link href={'/locations'}>Locations</Link></div>
+                <div className='p-2'><Link href={'/events'}>Events</Link></div>
                 <div className='p-2'><Link href={'/resources'}>Blog</Link></div>
             </div>
         </div>

@@ -6,9 +6,9 @@ function BlogMenu() {
             <div className='flex text-white  text-lg '>
                 <div className='p-2'><Link href={'/'}>Home</Link></div>
                 <div className='p-2'>About</div>
-                <div className='p-2'>Locations</div>
-                <div className='p-2'>Ministries</div>
-                <div className='p-2'>Events</div>
+                <div className='p-2'><Link href={'/locations'}>Locations</Link></div>
+                <div className='p-2'><Link href={'/events'}>Events</Link></div>
+                <div className='p-2'><Link href={'/resources'}>Blog</Link></div>
             </div>
   )
 }

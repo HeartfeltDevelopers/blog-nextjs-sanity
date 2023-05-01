@@ -14,6 +14,9 @@ function Info() {
         <Link href={'/devotions'}> Daily Devotions</Link>
         </div>
         <div className="m-1">
+        <Link href={'/events'}>Events</Link>
+        </div>
+        <div className="m-1">
         <Link href={'/worship'}> Heartfelt Worship</Link>
         </div>
         <div className="m-1">
