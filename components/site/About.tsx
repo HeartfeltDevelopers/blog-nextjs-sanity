@@ -18,7 +18,7 @@ function About() {
             Apostle T & Pastor C
         </div>
         <div className="m-1">
-            <Link href={`/leadershipStaff`}>Leadership Staff</Link>
+            <Link href={`/leadershipStaff`}>Leadership</Link>
         </div>
         <div className="m-1">
         <Link href={`/locations`}> Locations</Link>

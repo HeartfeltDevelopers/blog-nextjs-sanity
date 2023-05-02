@@ -3,6 +3,7 @@ import CoverImage from 'components/CoverImage'
 import Date from 'components/PostDate'
 import type { Post } from 'lib/sanity.queries'
 import Link from 'next/link'
+import LeadershipImage from './LeadershipImage'
 
 export default function LeadershipPreview({
   title,
@@ -15,7 +16,7 @@ export default function LeadershipPreview({
   return (
     <div className='bg-white mb-5'>
       <div className="mb-1 rounded-full">
-        <CoverImage
+        <LeadershipImage
           slug={slug}
           title={title}
           image={coverImage}

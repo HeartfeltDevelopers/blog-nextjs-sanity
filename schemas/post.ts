@@ -61,6 +61,7 @@ export default defineType({
           { title: 'Catch the Fire', value: 'ctf' },
           { title: 'Devotions', value: 'devotions' },
           { title: 'Events', value: 'events' },
+          { title: 'Leadership', value: 'leadership' },
           { title: 'Men', value: 'men' },
           { title: 'Men on Fire', value: 'mof' },
           { title: 'Women', value: 'women' },
