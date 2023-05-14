@@ -13,22 +13,18 @@ export default function HeroPost(
   const { title, coverImage, date, excerpt, author, slug } = props
   return (
     <section>
-      <div className="flex justify-between text-6xl pt-32 pb-20">
+      <div className="flex justify-between text-6xl pt-20 md:pt-32 pb-10 md:pb-20">
         <div>
-        <p className=' capitalize font-thin text-7xl'>Let your kingdom come  </p>
-        <p className='text-2xl font-semibold pt-10'>
+        <p className=' capitalize font-thin text-5xl md:text-7xl'>Let your kingdom come  </p>
+        <p className='text-lg md:text-2xl font-semibold pt-10'>
          This Sunday come experience His presence.
         </p>
-        <br />
-        <button className="rounded-full p-3 text-white text-3xl bg-sky-500">Online Connect </button>
+          <div className='pt-3 md:pt-10'>
+            <button className="rounded-full p-2 md:p-3 text-white text-lg md:text-3xl bg-sky-500">Online Connect </button>
+          </div>
         </div>
-        <div>
-          &nbsp;
-        </div>
-        
       </div>
-      <div className="mt-10 mb-20 md:mb-10 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 md:mt-20">
-       
+      <div className="mt-5 mb-20 md:mb-10 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 md:mt-20">
         <div>
           <div>
             <CoverImage slug={slug} title={title} image={coverImage} priority />
